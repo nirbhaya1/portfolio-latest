@@ -220,6 +220,28 @@ img {
   width: 360px;
 }
 
+
+/*typing effect*/
+/*.home__title {*/
+/*    display: inline-block;*/
+/*    overflow: hidden;*/
+/*    white-space: nowrap;*/
+/*    border-right: 2px solid #fff;*/
+/*    animation: typing 2s steps(10, end) infinite alternate;*/
+/*} */
+
+/*@keyframes typing {*/
+/*    from {*/
+/*        width: 0;*/
+/*    }*/
+/*    to {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+
+
+
+
 /*BUTTONS*/
 .button {
   display: inline-block;
@@ -323,24 +345,46 @@ img {
 }
 
 /* ===== CONTACT =====*/
-.contact__input {
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
+/*.contact__input {*/
+/*  width: 100%;*/
+/*  font-size: var(--normal-font-size);*/
+/*  font-weight: var(--font-semi);*/
+/*  padding: 1rem;*/
+/*  border-radius: 0.5rem;*/
+/*  border: 1.5px solid var(--second-color);*/
+/*  outline: none;*/
+/*  margin-bottom: var(--mb-4);*/
+/*}*/
+/*.contact__button {*/
+/*  display: block;*/
+/*  border: none;*/
+/*  outline: none;*/
+/*  font-size: var(--normal-font-size);*/
+/*  cursor: pointer;*/
+/*  margin-left: auto;*/
+/*}*/
+
+#contact .contact__details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds spacing between lines */
+    font-size: 16px;
 }
-.contact__button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
+
+#contact .contact__details p {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
 }
+
+#contact .contact__details i {
+    font-size: 20px; /* Adjust icon size */
+    color: #007bff; /* Blue color for icons */
+}
+
+
+
+
 
 /* ===== FOOTER =====*/
 .footer {

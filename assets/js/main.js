@@ -11,6 +11,26 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
+
+//
+//
+// /*typing effect*/
+//   var typed = new Typed("#typing", {
+//         strings: ["Nirbhaya"], // The text to type
+//         typeSpeed: 8,        // Speed of each letter
+//         startDelay: 3000,       // Delay before typing starts
+//         showCursor: true,     // Hide blinking cursor after typing
+//         backSpeed: 500,          // No backspacing
+//         loop: false            // Do not repeat typing
+//     });
+
+
+
+
+
+
+
+
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
